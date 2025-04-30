@@ -1,7 +1,7 @@
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 
-ADMIN_IDS = [1124279101]
+ADMIN_IDS = []
 # 1124279100
 async def is_admin(user_id: int):
   return user_id in ADMIN_IDS
